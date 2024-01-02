@@ -8,6 +8,7 @@ Key features:
 - Signup/Login/Logout: Allows users to register for an account with a username, first and last name, and password. 
 - Event Creation/Deletion: Users can create an event with a title, location, date, time, and description. They can also invite guests from their friend list. In addition, they can delete their own event.
 - Event Editing/: Users can completely modify their own event, including the list of invitees and attending guests.
+- Chat Capability: Each event has a group chat, where all attending users can communicate with one another.
 - Friend List Management: Users can add and remove friends, as well as cancel pending friend requests.
   
 ## Installation
@@ -51,19 +52,20 @@ After installation, run the server.
 python manage.py runserver
 ```
 ### Register
-Selecting the signup button in the bottom right will take users to a signup screen, where they can create an account.
+Click the "Register" button to create an account.
 
 ### Login
-After creating an account, users can login by entering their username and password.
+After creating an account, click the "Login" button and login by entering your username and password. 
 
-### Create Workout
-Users can create a workout by clicking the "Create Workouts" button. From there, they can add up to eight exercises, with names, sets, and reps, to the workout.
+### Event Functions
+Create an event by clicking the "Create Event" button. You can input the title, location, date, time, and description. In addition, you can select friends to invite. An event can also be deleted or edited by clicking "Edit Event" or "Delete Event." Users can also chat with one another using the chat box on the right side. If you are not the organizer, you can leave the event by clicking "Leave Event"
 
-### View Workouts
-Users can view existing workouts by clicking the "View Workouts" button.
+### Friends
+Add a friend by clicking the "Friends" button and typing in the username of the friend you want to add. You can also cancel outgoing requests, or remove friends.
 
-### Edit Workouts
-Users can edit or delete existing workouts by clicking the "Edit Workouts" button. From there, they can modify or remove exercises and their names, sets, and/or reps, as well as delete a workout entirely.
+### View Event
+View an event by clicking on the event under the "Events" tab on the left side.
 
-### Logout
-Users can logout by clicking the "Logout" button on the bottom left corner of the window.
+
+
+
