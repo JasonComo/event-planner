@@ -19,7 +19,7 @@ pip install virtualenv
 
 Clone the the repository.
 ```
-git clone JasonComo/event-planner
+git clone https://github.com/JasonComo/event-planner.git
 ```
 
 Navigate to the repository.
